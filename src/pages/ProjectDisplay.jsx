@@ -2,7 +2,7 @@ import React from "react";
 import { ProjectList } from "../helpers/ProjectList";
 import { GitHub } from "@mui/icons-material";
 import "../styles/ProjectDisplay.css";
-import { Link } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function ProjectDisplay({ id }) {
   const project = ProjectList[id];
