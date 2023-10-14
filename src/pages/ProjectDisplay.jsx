@@ -17,9 +17,9 @@ function ProjectDisplay({ id }) {
       <p>
         <b>Features:</b> {project.features}
       </p>
-      <Link to={project.github}>
+      <a href={project.github} target="_blank" rel="link to github">
         <GitHub />
-      </Link>
+      </a>
     </div>
   );
 }
